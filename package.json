@@ -1,0 +1,26 @@
+{
+  "name": "typescript-travelclub-stage03-03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "step1-cli": "tsc && node build/step1/StoryAssistant.js",
+    "step2-cli": "tsc && node build/step2/StoryAssistant.js",
+    "step3-cli": "tsc && node build/step3/StoryAssistant.js",
+    "step4-cli": "tsc && node build/step4/StoryAssistant.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/readline-sync": "^1.4.4",
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15",
+    "readline-sync": "^1.4.10",
+    "typescript": "^4.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25"
+  }
+}
